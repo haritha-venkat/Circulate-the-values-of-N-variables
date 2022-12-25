@@ -2,7 +2,6 @@
 ## Aim:
 To write a python program to circulate the n variables using function concept
 ## Equipment’s required:
-PC
 Anaconda - Python 3.7
 ## Algorithm: 
 ### Step 1: 
@@ -15,7 +14,20 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
+```
+#Program to circulate N values.
+#Developed by: 
+#RegisterNumber:
+def circulate():
+    a=eval(input())
+    b=int(input())
+    a=a[b:]+a[:b]
+    print("After circulating the values are:",a)
+```
 
 ## Output:
+![output](/Screenshot%20from%202022-12-25%2021-52-57.png)
 
 ## Result:
+         thus the python program is executed sucessfully.
+sss
